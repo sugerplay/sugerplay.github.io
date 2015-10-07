@@ -219,6 +219,10 @@
         margin-bottom: $spacing-unit;
         text-align: center;
     }
+    
+    > li > h2 { 
+        line-height: 1;
+    }
 }
 
 .post-meta {
