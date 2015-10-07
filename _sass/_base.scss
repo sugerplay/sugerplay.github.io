@@ -158,8 +158,14 @@ pre {
  * Wrapper
  */
 .site-wrapper {
-    height: 100%;
+    min-height: 100%;
     margin-bottom: -99px;
+}
+
+.site-wrapper:after {
+    content: "";
+    display: block;
+    height: 100px;
 }
 
 .wrapper {
