@@ -1,5 +1,5 @@
 # Site settings
-title: sugerplay
+title: SUGERPLAY
 email: yoojin@sugernspice.com
 description: > # this means to ignore newlines until "baseurl:"
   Suger playing spicily.
@@ -9,7 +9,7 @@ twitter_username: sugerplay
 github_username:  sugerplay
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 markdown: redcarpet
 redcarpet:
