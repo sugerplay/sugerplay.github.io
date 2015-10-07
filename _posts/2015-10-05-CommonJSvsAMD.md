@@ -2,7 +2,7 @@
 layout: post
 title:  "CommonJS vs AMD"
 date:   2015-10-05
-categories: Javascript CommonJS AMD
+categories: nodejs
 comments: true
 ---
 
