@@ -165,7 +165,16 @@ pre {
 .site-wrapper:after {
     content: "";
     display: block;
-    height: 100px;
+    height: 99px;
+}
+
+@include media-query($on-palm) {
+    .site-wrapper {
+        margin-bottom: -59px;
+    }
+    .site-wrapper:after {
+        height: 59px;
+    }
 }
 
 .wrapper {

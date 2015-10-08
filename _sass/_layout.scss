@@ -118,6 +118,12 @@
     background: $grey-color-light;
 }
 
+@include media-query($on-palm) {
+    .site-footer {
+        padding: $spacing-unit*0.5 0;
+    }
+}
+
 .footer-heading {
     font-size: 10px;
     text-align: center;
