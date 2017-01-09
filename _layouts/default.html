@@ -5,7 +5,7 @@
 
   <body>
 
-    <div class="site-wrapper">
+    <div class="site-wrapper" id="entire">
       {% include header.html %}
   
       <div class="page-content">
@@ -29,6 +29,11 @@
       s.src = '//' + disqus_shortname + '.disqus.com/count.js';
       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
+    
+    var footer = document.getElementById('footer');
+    var h = footer.getBoundingClientRect().height;
+    document.getElementById('entire').style.marginBottom = -h + 'px';
+    
   </script>
 
 </html>

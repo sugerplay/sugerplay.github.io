@@ -5,7 +5,7 @@
 
   <body>
     
-    <div class="site-wrapper">
+    <div class="site-wrapper" id="entire">
       {% include header_post.html %}
   
       <div class="page-content">
@@ -18,5 +18,11 @@
     {% include footer.html %}
 
   </body>
-
+  <script type="text/javascript">
+    var footer = document.getElementById('footer');
+    var h = footer.getBoundingClientRect().height;
+    document.getElementById('entire').style.marginBottom = -h + 'px';
+    
+  </script>
+  
 </html>

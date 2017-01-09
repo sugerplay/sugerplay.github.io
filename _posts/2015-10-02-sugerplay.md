@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Created."
+title:  "Sugerplay"
 date:   2015-10-02
 categories: blog
 comments: false
 ---
 
-created at 2015.10.2.
+Suger, not sugar.
